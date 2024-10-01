@@ -1,8 +1,4 @@
-// main() program to test your schedule function.
-// Feel free to modify though it will be easiest to
-// simply pass in different command line arguments to test
-// various cases of words and letters.
-// This file will not be graded. 
+// main() program to test function.
 #include <iostream>
 #include <set>
 #include <string>
