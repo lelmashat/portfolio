@@ -7,12 +7,6 @@ using namespace std;
 /**
  * Reads integers (separated by whitespace) from a file
  * into a linked list.
- *
- * @param[in] filename
- *  The name of the file containing the data to read
- * @return
- *  Pointer to the linked list (or NULL if empty or the
- *  file is invalid)
  */
 Node* readList(const char* filename);
 
@@ -62,13 +56,6 @@ void dealloc(Node* head)
     }
 }
 
-// -----------------------------------------------
-//   Add any helper functions or
-//   function object struct declarations
-// -----------------------------------------------
-
-
-
 
 
 int main(int argc, char* argv[])
@@ -77,19 +64,10 @@ int main(int argc, char* argv[])
         cout << "Please provide an input file" << endl;
         return 1;
     }
-
-    // -----------------------------------------------
-    // Feel free to update any code below this point
-    // -----------------------------------------------
     Node* head = readList(argv[1]);
     cout << "Original list: ";
     print(head);
 
-    // Test out your linked list code
-
-
-
-    
     return 0;
 
 }
