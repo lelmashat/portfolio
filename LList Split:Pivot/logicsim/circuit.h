@@ -22,7 +22,6 @@ class Circuit
 		uint64_t m_current_time;
     std::vector<Gate*> m_gates;
     std::vector<Wire*> m_wires;
-    // Add the m_pq data member. (Min-heap of Event*)
     Heap<Event*> m_pq;
 };
 
