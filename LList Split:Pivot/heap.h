@@ -9,53 +9,41 @@ class Heap
 {
 public:
   /**
-   * @brief Construct a new Heap object
-   * 
-   * @param m ary-ness of heap tree (default to 2)
-   * @param c binary predicate function/functor that takes two items
-   *          as an argument and returns a bool if the first argument has
-   *          priority over the second.
+   * Construct a new Heap object
    */
   Heap(int m=2, PComparator c = PComparator());
 
   /**
-  * @brief Destroy the Heap object
+  * Destroy the Heap object
   * 
   */
   ~Heap();
 
   /**
-   * @brief Push an item to the heap
-   * 
-   * @param item item to heap
+   * Push an item to the heap
    */
   void push(const T& item);
 
   /**
-   * @brief Returns the top (priority) item
-   * 
-   * @return T const& top priority item
-   * @throw std::underflow_error if the heap is empty
+   * Returns the top (priority) item
    */
   T const & top() const;
 
   /**
-   * @brief Remove the top priority item
-   * 
-   * @throw std::underflow_error if the heap is empty
+   * Remove the top priority item
    */
   void pop();
 
   /// returns true if the heap is empty
 
   /**
-   * @brief Returns true if the heap is empty
+   * Returns true if the heap is empty
    * 
    */
   bool empty() const;
 
     /**
-   * @brief Returns size of the heap
+   * Returns size of the heap
    * 
    */
   size_t size() const;
