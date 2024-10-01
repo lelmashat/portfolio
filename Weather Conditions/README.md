@@ -12,4 +12,4 @@ Technical Implementation
 - Error Handling: Comprehensive error checking to handle invalid inputs and file parsing issues, enhancing user experience and reliability.
 
 The program begins by asking for a JSON file containing weather data. Upon successful parsing, it presents a menu of options to the user. Example interactions include querying temperature for specific locations and displaying all weather information in a structured format.
-This project not only reinforced my Java programming skills but also enhanced my understanding of data parsing, file management, and user interface design in command-line applications. The experience gained through this assignment has laid a solid foundation for future projects involving more complex data structures and user interactions.
+
