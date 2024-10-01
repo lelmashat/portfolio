@@ -6,7 +6,6 @@
 #include <vector>
 #include <map>
 #include <algorithm>
-// add or remove necessary headers as you please
 
 #endif
 
@@ -14,9 +13,7 @@
 
 using namespace std;
 
-// a constant that can be used to indicate an INVALID 
-// worker ID if that is useful to your implementation.
-// Feel free to not use or delete.
+// a constant that can be used to indicate an INVALID worker ID 
 static const Worker_T INVALID_ID = (unsigned int)-1;
 
 
@@ -78,7 +75,6 @@ bool schedule(
         return false;
     }
     sched.clear();
-    // Add your code below
     size_t numWorkers = avail[0].size();
     size_t numDays = avail.size();
     
